@@ -6,7 +6,5 @@ jQuery ->
   $.getJSON "ip_address", (data) ->
     $("#putin-client-ip-address").text(data['ip'])
 
-
-  $("#putin-client-ip-address").text()
   $(".khodorkovsky .oligarch-image").mouseover ->
     $("#putin-modal").modal('show');
